@@ -23,6 +23,11 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.vendor.smart_dfps.enable=false
 
 
+# Dex2oat
+PRODUCT_PRODUCT_PROPERTIES += \
+     dalvik.vm.dex2oat64.enabled=true
+
+
 # Enable blurs
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.surface_flinger.supports_background_blur=1 \
