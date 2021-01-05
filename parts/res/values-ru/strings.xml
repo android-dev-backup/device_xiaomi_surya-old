@@ -69,6 +69,7 @@
     <string name="device_specific_settings_summary">Настройки частоты дисплея</string>
     <string name="device_min_refresh_rate">Частота обновления дисплея</string>
     <string name="device_pill_style_notch">Вырез в экране под камеру</string>
+    <string name="device_hide_camera_cutout">Скрыть вырез камеры</string>
     <string name="msg_device_need_restart">Пожалуйста перезагрузите, для применения эффекта.</string>
 
     <!-- Dirac settings -->
