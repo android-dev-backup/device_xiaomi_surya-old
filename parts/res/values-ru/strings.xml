@@ -124,4 +124,14 @@
     <string name="thermal_camera">камера</string>
     <string name="thermal_dialer">телефон / 60 Гц</string>
     <string name="thermal_gaming">игра / 90 Гц</string>
+
+    <!-- Clear Speaker -->
+    <string name="clear_speaker_title">Отчистить динамик</string>
+    <string name="clear_speaker_summary">Воспроизвести 30-секундный звук, чтобы очистить динамик</string>
+    <string name="clear_speaker_description">Если вы обнаружите, что ваш динамик слегка запылился или туда попала вода - установите максимальную громкость мультимедиа и запустите эту функцию один или два раза \n\nЕсли сильно - запустите эту функцию 2–5 раз, встряхивая устройство динамиком вниз.</string>
+
+    <!-- doze -->
+    <string name="wake_on_gesture_title">Просыпаться от жестов</string>
+    <string name="wake_on_gesture_summary">Вывести устройство из спящего режима вместо импульсных уведомлений о событиях жестов (я сам не понял, потом переведу)</string>
+
 </resources>

@@ -61,8 +61,8 @@
     <string name="security_settings_fingerprint_sensor_location_right">right side</string>
 
     <!-- Heads-up -->
-    <string name="heads_up_notifications_enabled_title">Heads-up</string>
-    <string name="heads_up_notifications_enabled_summary">Display priority notifications in a small floating window</string>
+    <string name="heads_up_notifications_enabled_title">Всплывающие уведомления</string>
+    <string name="heads_up_notifications_enabled_summary">Отображение приоритетных уведомлений в небольшом плавающем окне</string>
 
     <!-- High touch sensitivity -->
     <string name="high_touch_sensitivity_title">High touch sensitivity</string>
@@ -138,8 +138,8 @@
     <string name="touchscreen_hovering_summary">Allows you to hover the screen like a mouse in web browsers, remote desktops, etc</string>
 
     <!-- Touchscreen gesture settings -->
-    <string name="touchscreen_gesture_settings_title">Touchscreen gestures</string>
-    <string name="touchscreen_gesture_settings_summary">Perform various touchscreen gestures for quick actions</string>
+    <string name="touchscreen_gesture_settings_title">Жесты сенсорного экрана</string>
+    <string name="touchscreen_gesture_settings_summary">Используйте различные жесты сенсорного экрана для быстрых действий</string>
 
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Связать громкость вызовов и уведомлений</string>
@@ -149,9 +149,9 @@
     <string name="wake_when_plugged_or_unplugged_summary">Включкение дисплея при подключении или отключении источника питания</string>
 
     <!-- Backup Transport selection settings menu and activity title -->
-    <string name="backup_transport_setting_label">Change backup provider</string>
-    <string name="backup_transport_title">Select backup provider</string>
+    <string name="backup_transport_setting_label">Сменить поставщика резервного копирования</string>
+    <string name="backup_transport_title">Выберите поставщика резервного копирования</string>
 
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
-    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+    <string name="connected_tws_device_saved_title">Сохраненные наушники</string>
 </resources>
