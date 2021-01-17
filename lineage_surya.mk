@@ -15,6 +15,9 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
+# Face unlock
+TARGET_USES_FACE_UNLOCK := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_surya
 PRODUCT_DEVICE := surya
