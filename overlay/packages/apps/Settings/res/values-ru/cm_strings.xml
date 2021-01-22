@@ -146,7 +146,7 @@
 
     <!-- Wake on plug -->
     <string name="wake_when_plugged_or_unplugged_title">Включение при зарядке</string>
-    <string name="wake_when_plugged_or_unplugged_summary">Включкение дисплея при подключении или отключении источника питания</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Включение дисплея при подключении или отключении источника питания</string>
 
     <!-- Backup Transport selection settings menu and activity title -->
     <string name="backup_transport_setting_label">Сменить поставщика резервного копирования</string>
