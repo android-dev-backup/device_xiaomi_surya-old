@@ -118,6 +118,9 @@ lib/libqdMetaData.system.so
 lib64/libqdMetaData.so
 lib64/libqdMetaData.system.so
 
+# Input
+etc/excluded-input-devices.xml
+
 # Media - from surya QKQ1.200512.002-V12.0.4.0.QJGMIXM
 lib/libFileMux.so
 lib/libmmosal.so
