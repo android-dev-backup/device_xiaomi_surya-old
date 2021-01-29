@@ -35,7 +35,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
     debug.sf.latch_unsignaled=1 \
     debug.sf.disable_backpressure=1
 
-
 # Charger Mode
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.charger.enable_suspend=true
@@ -53,7 +52,8 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.surface_flinger.has_wide_color_display=false \
     ro.gfx.driver.1=com.qualcomm.qti.gpudrivers.sm6150.api30 \
     ro.surface_flinger.has_HDR_display=false \
-    vendor.display.disable_rotator_downscale=1
+    vendor.display.disable_rotator_downscale=1 \
+    ro.surface_flinger.has_wide_color_display=false
 
 # WFD
 PRODUCT_PRODUCT_PROPERTIES += \
