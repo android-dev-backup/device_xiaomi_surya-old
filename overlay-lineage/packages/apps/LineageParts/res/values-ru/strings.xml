@@ -537,4 +537,8 @@
     <string name="sms_security_check_limit_summary">Запрашивать подтверждение при отправке более %s сообщений в минуту</string>
     <string name="sms_security_check_limit_summary_none">Приложениям запрещено отправлять сообщения без подтверждения</string>
     <string name="sms_security_check_limit_always_confirm">Подтверждать всегда</string>
+
+     <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Скриншот жестом</string>
+    <string name="three_finger_gesture_summary">Свайп тремя пальцами для снятия скриншота</string>
 </resources>
