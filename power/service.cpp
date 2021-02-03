@@ -27,19 +27,16 @@
  * IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#define LOG_TAG "android.hardware.power@1.2-service-qti"
+#define LOG_TAG "android.hardware.power@1.2-service"
 
-#include <hardware/power.h>
+#include <android/log.h>
 #include <hidl/HidlTransportSupport.h>
-#ifdef ARCH_ARM_32
-#include <hwbinder/ProcessState.h>
-#endif
-#include <log/log.h>
+#include <hardware/power.h>
 #include "Power.h"
 
-using android::OK;
 using android::sp;
 using android::status_t;
+using android::OK;
 
 // libhwbinder:
 using android::hardware::configureRpcThreadpool;
@@ -50,9 +47,6 @@ using android::hardware::power::V1_2::IPower;
 using android::hardware::power::V1_2::implementation::Power;
 
 int main() {
-#ifdef ARCH_ARM_32
-    android::hardware::ProcessState::initWithMmapSize((size_t)16384);
-#endif
 
     status_t status;
     android::sp<IPower> service = nullptr;
@@ -76,7 +70,7 @@ int main() {
 
     ALOGI("Power Service is ready");
     joinRpcThreadpool();
-    // Should not pass this line
+    //Should not pass this line
 
 shutdown:
     // In normal operation, we don't expect the thread pool to exit
@@ -84,3 +78,4 @@ shutdown:
     ALOGE("Power Service is shutting down");
     return 1;
 }
+
