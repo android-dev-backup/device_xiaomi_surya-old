@@ -26,7 +26,7 @@ TARGET_2ND_CPU_VARIANT := cortex-a76
 BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := surya
+TARGET_OTA_ASSERT_DEVICE := surya,karna
 TARGET_NO_BOOTLOADER := true
 
 # Bootloader
