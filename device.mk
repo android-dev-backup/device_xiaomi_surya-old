@@ -62,7 +62,9 @@ PRODUCT_PACKAGES += \
 
 # Force triple frame buffers
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.surface_flinger.max_frame_buffer_acquired_buffers=3
+    ro.surface_flinger.max_frame_buffer_acquired_buffers=3 \
+    ro.config.media_vol_steps=25 \
+    ro.config.vc_call_vol_steps=7
 
 # Device Settings
 PRODUCT_PACKAGES += \
