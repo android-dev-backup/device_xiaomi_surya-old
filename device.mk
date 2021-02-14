@@ -215,8 +215,10 @@ PRODUCT_PACKAGES += \
     TetheringConfigOverlay \
     WifiOverlay
 
+# Soong namespace
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
+    $(LOCAL_PATH) \
+    kernel/xiaomi/surya
 
 # WFD
 PRODUCT_PACKAGES += \
