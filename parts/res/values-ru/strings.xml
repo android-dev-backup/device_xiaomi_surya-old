@@ -134,4 +134,15 @@
     <string name="wake_on_gesture_title">Включать дисплей</string>
     <string name="wake_on_gesture_summary">Вывести устройство из спящего режима вместо быстрого просмотра уведомлений (Always on Display)</string>
 
+    <!-- Touch Control Settings -->
+    <string name="touch_control_title">Сенсорное управление</string>
+    <string name="touch_game_mode_title">Включить игровой режим</string>
+    <string name="touch_game_mode_summary">Активируйте ручное управление функциями сенсорного экрана для лучшего игрового процесса</string>
+    <string name="touch_response_title">Отклик сенсора</string>
+    <string name="touch_response_summary">Управление сенсорным откликом</string>
+    <string name="touch_sensitivity_title">Сенсорная чувствительность</string>
+    <string name="touch_sensitivity_summary">Управление чувствительностью к касанию для повторяющихся нажатий</string>
+    <string name="touch_resistant_title">Сенсорная зона</string>
+    <string name="touch_resistant_summary">Уменьшите чувствительность к касанию по краям, чтобы избежать срабатывания фантомных нажатий</string>
+
 </resources>
