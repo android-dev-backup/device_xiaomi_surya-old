@@ -57,6 +57,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
 	libmedia_jni_shim
 
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.camera.device@1.0
+
 # Force triple frame buffers
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.max_frame_buffer_acquired_buffers=3 \
