@@ -12,10 +12,11 @@ type pps_socket, file_type;
 
 #sysfs
 type sysfs_graphics, sysfs_type, fs_type;
-type proc_touchpanel, fs_type;
 type sysfs_usb_supply, sysfs_type, fs_type;
 type sysfs_battery_supply, sysfs_type, fs_type;
 type sysfs_ledcit, sysfs_type, fs_type;
+
+type proc_touchpanel, fs_type;
 
 type qr_code_file, fs_type;
 
