@@ -1,3 +1,6 @@
+on init 
+    # Setup permissions for schedtune boost to allow parts to write to it
+    chmod 646 /dev/stune/top-app/schedtune.boost
 
 on post-fs && property:ro.product.device=karna
     mount none /dev/null /system/app/NfcNci/NfcNci.apk bind
