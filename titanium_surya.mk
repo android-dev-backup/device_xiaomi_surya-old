@@ -35,8 +35,6 @@ REMOVE_GAPPS_PACKAGES += \
         PrebuiltGmail \
         WellbeingPrebuilt
 
-
-
 # Face unlock
 TARGET_USES_FACE_UNLOCK := true
 
