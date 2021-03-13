@@ -31,7 +31,6 @@ REMOVE_GAPPS_PACKAGES += \
         VancedMicroG \
         MicropaperPrebuilt \
         Photos \
-        PrebuiltBugle \
         PrebuiltGmail \
         WellbeingPrebuilt
 
