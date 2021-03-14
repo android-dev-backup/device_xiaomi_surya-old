@@ -1,5 +1,3 @@
-permissive vendor_init;
-
 typeattribute vendor_init data_between_core_and_vendor_violators;
 
 # Allow vendor_init to check encryption status of system_data_file
