@@ -14,6 +14,9 @@ $(call inherit-product, vendor/titanium/config/common_full_phone.mk)
 
 # Gapps
 TARGET_GAPPS_ARCH := arm64
+WITH_GMS=true
+TARGET_INCLUDE_STOCK_GAPPS=true
+TARGET_INCLUDE_LIVE_WALLPAPERS=true
 TARGET_BOOT_ANIMATION_RES := 1080
 
 TARGET_SCREEN_HEIGHT := 2400
@@ -29,14 +32,7 @@ REMOVE_GAPPS_PACKAGES += \
         MicropaperPrebuilt \
         Photos \
         PrebuiltGmail \
-        WellbeingPrebuilt \
-        PixelLauncherOverlay \
-        PixelSystemUIOverlay \
-        GooglePackageInstaller \
-        GooglePrintRecommendationService \
-        PrebuiltBugle \
-        GoogleTTS
-
+        WellbeingPrebuilt
 
 # Face unlock
 TARGET_USES_FACE_UNLOCK := true

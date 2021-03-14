@@ -10,4 +10,4 @@ PRODUCT_MAKEFILES := \
 COMMON_LUNCH_CHOICES := \
     titanium_surya-user \
     titanium_surya-userdebug \
-    titanium_surya-eng
+    titanium_surya-eng 
