@@ -98,6 +98,8 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 ifeq ($(TARGET_PREBUILT_KERNEL),)
   TARGET_KERNEL_CONFIG := surya_defconfig
   TARGET_KERNEL_CLANG_COMPILE := true
+  TARGET_KERNEL_CLANG_VERSION := r416183d
+  TARGET_KERNEL_ADDITIONAL_FLAGS += LD=ld.lld AR=llvm-ar NM=llvm-nm OBJCOPY=llvm-objcopy OBJDUMP=llvm-objdump STRIP=llvm-strip
   TARGET_KERNEL_SOURCE := kernel/xiaomi/surya
 endif
 
