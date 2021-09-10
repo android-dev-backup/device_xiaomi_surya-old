@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="thermal_profiles">
+        <item>По умолчанию</item>
+        <item>Игра</item>
+        <item>Производительность</item>
+        <item>Браузер</item>
+        <item>Камера</item>
+        <item>PUBG</item>
+    </string-array>
+</resources>
