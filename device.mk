@@ -81,6 +81,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     fastbootd
 
+# RIL
+PRODUCT_PACKAGES += \
+    android.hardware.radio.config@1.1 \
+    android.hardware.radio@1.5 \
+    android.hardware.secure_element@1.1
+
 # FM
 PRODUCT_PACKAGES += \
     FM2 \

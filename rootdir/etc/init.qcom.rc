@@ -92,3 +92,8 @@ on property:vendor.post_boot.parsed=1
     write /sys/block/sdd/queue/read_ahead_kb 128
     write /sys/block/sde/queue/read_ahead_kb 128
     write /sys/block/sdf/queue/read_ahead_kb 128
+    
+# msm specific files that need to be created on /data
+on post-fs-data
+    start vendor.dataqti
+    start vendor.dataadpl
